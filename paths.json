@@ -1,0 +1,26 @@
+{
+    "location_screen": {
+        "application_modal": "#downloadApp > div > div.seguir-web.text-center > button",
+        "location_error_modal": ".modal.fade.in button.close",
+        "address_field": "#input-calle",
+        "location_suggestion": "li.list-group-item",
+        "check_address_button": "#formulario > div.col-md-2.col-sm-3.col-xs-12.text-center > button",
+        "level_field": "#searchPiso",
+        "door_field": "#seleccionarCalle > div > div > div:nth-child(2) > div.box > div:nth-child(1) > div.row.no-margin > div:nth-child(2) > input",
+        "submit_address_button": "#seleccionarCalle > div > div > div:nth-child(2) > div.box > div:nth-child(3) > div > div.row.no-margin > div > button:nth-child(1)"
+    },
+    "menu_screen": {
+        "cookie_accept_button": "#cookiesMessage > center > button",
+        "pizza_card": "#menu-vista-web > div > div > div > div > div:nth-child({}) > div:nth-child(5) > div > button",
+        "go_to_cart_button": "#navbar > div.subir-carrito-pc > form > div > div > i"
+    },
+    "pizza_screen": {
+        "select_medium_radio": "#contenedorPrincipalIframe > div:nth-child(3) > div > div > div.no-padding.col-xs-12.col-sm-12.col-md-8 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(3) > label > input",
+        "submit_addition": "#contenedorPrincipalIframe > div:nth-child(3) > div > div > div.no-padding.col-xs-12.col-sm-12.col-md-8 > div.ocultar-div-movil.botones-modifypc > div.no-padding.col-md-12.col-xs-12.bajar-botones-modify > button:nth-child(3)"
+    },
+    "cart_screen": {
+        "price_text": "#collapse3 > div > div:nth-child(10) > h4",
+        "delivery_hour_text": "#contenedorPrincipalIframe > div:nth-child(3) > div > div > div > div:nth-child(2) > div:nth-child(2) > div > div.panel-heading.panel-heading-carrito > h4",
+        "submit_order_button": "button:nth-child(2)"
+    }
+}
