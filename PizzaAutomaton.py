@@ -161,7 +161,7 @@ if "-y" not in sys.argv:
 # --------------------------------------------------
 complete_order_button = driver.find_element_by_css_selector(PATHS["cart_screen"]["submit_order_button"])
 ActionChains(driver).move_to_element(complete_order_button).perform()
-#complete_order_button.click()
+complete_order_button.click()
 
 time.sleep(WAITING_TIME * 10)
 driver.quit()
