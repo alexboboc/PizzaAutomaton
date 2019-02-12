@@ -10,6 +10,9 @@ WAITING_TIME = 2
 with open("paths.json") as paths_file:
     PATHS = json.load(paths_file)
 
+with open("pizzas.json") as pizzas_file:
+    PIZZAS = json.load(pizzas_file)
+
 # --------------------------------------------------
 #   Initialize ChromeDriver
 # --------------------------------------------------
@@ -101,9 +104,9 @@ time.sleep(WAITING_TIME)
 weekday = datetime.datetime.today().weekday()
 familiars = False
 if weekday in range(4):
-    pizzas_idxs = [13, 18, 28]
+    pizzas_idxs = [PIZZAS["bbq_inferno"], PIZZAS["fondue"], PIZZAS["chicken_grill"]]
 else:
-    pizzas_idxs = [13, 28]
+    pizzas_idxs = [PIZZAS["bbq_inferno"], PIZZAS["chicken_grill"]]
     familiars = True
 
 # --------------------------------------------------
