@@ -1,6 +1,6 @@
 # :pizza: Pizza Automaton
 
-A while ago, I found myself going through the same repetitive process when ordering my pizzas, over and over every time I wanted a delivery of them.
+A while ago, I found myself going through the same repetitive process over and over again every time I wanted to order a delivery of my favorite pizzas.
 
 At that moment, I was writing automation scripts at work for simulating user interaction with browsers, so then I realized, **why not automate my pizza orders and save myself some time?**
 
